@@ -1,0 +1,23 @@
+{
+  "name": "@element-extended-icon-pack/tools",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.mts",
+  "module": "index.mts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@pnpm/find-workspace-dir": "^6.0.2",
+    "@pnpm/find-workspace-packages": "^6.0.9",
+    "@pnpm/logger": "^5.0.0",
+    "@types/node": "^20.10.3",
+    "camelcase": "^8.0.0",
+    "fast-glob": "^3.3.2",
+    "svgson": "^5.3.1"
+  }
+}

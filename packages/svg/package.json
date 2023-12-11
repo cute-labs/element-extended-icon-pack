@@ -1,0 +1,20 @@
+{
+  "name": "@element-extended-icon-pack/svg",
+  "version": "0.0.1",
+  "description": "SVG icon pack for Element UI Extended Icons Pack",
+  "keywords": [
+    "icon",
+    "svg",
+    "element-ui"
+  ],
+  "license": "MIT",
+  "files": [
+    "*.svg"
+  ],
+  "scripts": {
+    "optimize": "svgo -f . -o ."
+  },
+  "devDependencies": {
+    "svgo": "^3.0.5"
+  }
+}
