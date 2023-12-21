@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
-    <title>fill-ele-arrow-caret-down</title>
-    <g id="fill-ele-arrow-caret-down" stroke-width="1" fill-rule="evenodd">
-        <polygon id="&#36335;&#24452;-161" points="16 23 26 11 6 11" />
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="currentColor" d="m16 23 10-12H6z"/></svg>

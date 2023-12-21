@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
-    <title>linear-new-tool-edit-save-diskette-floppy-disk</title>
-    <g id="linear-new-tool-edit-save-diskette-floppy-disk" stroke-width="1" fill-rule="evenodd">
-        <path d="M21,3 C21.2652165,3 21.5195704,3.10535684 21.7071068,3.29289322 L28.7071068,10.2928932 C28.8946432,10.4804296 29,10.7347835 29,11 L29,28 C29,28.5522847 28.5522847,29 28,29 L4,29 C3.44771525,29 3,28.5522847 3,28 L3,4 C3,3.44771525 3.44771525,3 4,3 L21,3 Z M8,5 L5,5 L5,27 L8,27 L8,18 C8,17.4477153 8.44771525,17 9,17 L23,17 C23.5522847,17 24,17.4477153 24,18 L24,27 L27,27 L27,11.415 L20.585,5 L20,5 L20,10 C20,10.5522847 19.5522847,11 19,11 L9,11 C8.44771525,11 8,10.5522847 8,10 L8,5 Z M22,19 L10,19 L10,27 L22,27 L22,19 Z M18,5 L10,5 L10,9 L18,9 L18,5 Z" id="&#24418;&#29366;" fill-rule="nonzero" />
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="currentColor" d="M21 3a1 1 0 0 1 .707.293l7 7A1 1 0 0 1 29 11v17a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM8 5H5v22h3v-9a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v9h3V11.415L20.585 5H20v5a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1zm14 14H10v8h12zM18 5h-8v4h8z"/></svg>

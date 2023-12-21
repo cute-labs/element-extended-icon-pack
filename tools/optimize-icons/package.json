@@ -1,0 +1,12 @@
+{
+  "name": "optimize-icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.mjs",
+  "bin": {
+    "optimize-icons": "./main.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

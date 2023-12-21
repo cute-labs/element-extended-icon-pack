@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
-    <title>fill-new-container-bag-suitcase</title>
-    <g id="fill-new-container-bag-suitcase" stroke-width="1" fill-rule="evenodd">
-        <path d="M30,15 L30,25 C30,27.209139 28.209139,29 26,29 L6,29 C3.790861,29 2,27.209139 2,25 L2,15 L30,15 Z M21,3 C21.5522847,3 22,3.44771525 22,4 L22,7 L26,7 C28.209139,7 30,8.790861 30,11 L30,13 L2,13 L2,11 C2,8.790861 3.790861,7 6,7 L10,7 L10,4 C10,3.44771525 10.4477153,3 11,3 L21,3 Z M20,5 L12,5 L12,7 L20,7 L20,5 Z" id="&#24418;&#29366;" />
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="currentColor" d="M30 15v10a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V15zM21 3a1 1 0 0 1 1 1v3h4a4 4 0 0 1 4 4v2H2v-2a4 4 0 0 1 4-4h4V4a1 1 0 0 1 1-1zm-1 2h-8v2h8z"/></svg>

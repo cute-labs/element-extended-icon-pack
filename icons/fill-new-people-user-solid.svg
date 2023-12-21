@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
-    <title>fill-new-people-user-solid</title>
-    <g id="fill-new-people-user-solid" stroke-width="1" fill-rule="evenodd">
-        <path d="M9,20 L23,20 C25.7614237,20 28,22.2385763 28,25 L28,28 C28,28.5522847 27.5522847,29 27,29 L5,29 C4.48716416,29 4.06449284,28.6139598 4.00672773,28.1166211 L4,28 L4,25 C4,22.2385763 6.23857625,20 9,20 Z M16,17 C19.8659932,17 23,13.8659932 23,10 C23,6.13400675 19.8659932,3 16,3 C12.1340068,3 9,6.13400675 9,10 C9,13.8659932 12.1340068,17 16,17 Z" id="&#24418;&#29366;" />
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="currentColor" d="M9 20h14a5 5 0 0 1 5 5v3a1 1 0 0 1-1 1H5a1 1 0 0 1-.993-.883L4 28v-3a5 5 0 0 1 5-5m7-3a7 7 0 1 0 0-14 7 7 0 0 0 0 14"/></svg>

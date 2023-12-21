@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
-    <title>linear-new-symbol-hambuger-menu-more</title>
-    <g id="linear-new-symbol-hambuger-menu-more" stroke-width="1" fill-rule="evenodd">
-        <path d="M27,5 C27.5522847,5 28,5.44771525 28,6 C28,6.55228475 27.5522847,7 27,7 L5,7 C4.44771525,7 4,6.55228475 4,6 C4,5.44771525 4.44771525,5 5,5 L27,5 Z M27,15 C27.5522847,15 28,15.4477153 28,16 C28,16.5522847 27.5522847,17 27,17 L5,17 C4.44771525,17 4,16.5522847 4,16 C4,15.4477153 4.44771525,15 5,15 L27,15 Z M27,25 C27.5522847,25 28,25.4477153 28,26 C28,26.5522847 27.5522847,27 27,27 L5,27 C4.44771525,27 4,26.5522847 4,26 C4,25.4477153 4.44771525,25 5,25 L27,25 Z" id="&#24418;&#29366;" fill-rule="nonzero" />
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="currentColor" d="M27 5a1 1 0 0 1 0 2H5a1 1 0 1 1 0-2zm0 10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2zm0 10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2z"/></svg>

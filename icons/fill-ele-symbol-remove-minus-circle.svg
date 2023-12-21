@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
-    <title>fill-ele-symbol-remove-minus-circle</title>
-    <g id="fill-ele-symbol-remove-minus-circle" stroke-width="1" fill-rule="evenodd">
-        <path d="M16,2 C23.7319865,2 30,8.2680135 30,16 C30,23.7319865 23.7319865,30 16,30 C8.2680135,30 2,23.7319865 2,16 C2,8.2680135 8.2680135,2 16,2 Z M22,15 L10,15 C9.44771525,15 9,15.4477153 9,16 C9,16.5522847 9.44771525,17 10,17 L22,17 C22.5522847,17 23,16.5522847 23,16 C23,15.4477153 22.5522847,15 22,15 Z" id="&#24418;&#29366;" />
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="currentColor" d="M16 2c7.732 0 14 6.268 14 14s-6.268 14-14 14S2 23.732 2 16 8.268 2 16 2m6 13H10a1 1 0 0 0 0 2h12a1 1 0 0 0 0-2"/></svg>

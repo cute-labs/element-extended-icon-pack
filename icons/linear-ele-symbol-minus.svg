@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
-    <title>linear-ele-symbol-minus</title>
-    <g id="linear-ele-symbol-minus" stroke-width="1" fill-rule="evenodd">
-        <path d="M28,15 C28.5522847,15 29,15.4477153 29,16 C29,16.5522847 28.5522847,17 28,17 L4,17 C3.44771525,17 3,16.5522847 3,16 C3,15.4477153 3.44771525,15 4,15 L28,15 Z" id="&#36335;&#24452;" fill-rule="nonzero" />
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="currentColor" d="M28 15a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/></svg>

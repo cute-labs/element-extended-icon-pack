@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
-    <title>linear-ele-container-bag-suitcase-1</title>
-    <g id="linear-ele-container-bag-suitcase-1" stroke-width="1" fill-rule="evenodd">
-        <path d="M21,3 C21.5522847,3 22,3.44771525 22,4 L22,7 L26,7 C28.209139,7 30,8.790861 30,11 L30,25 C30,27.209139 28.209139,29 26,29 L6,29 C3.790861,29 2,27.209139 2,25 L2,11 C2,8.790861 3.790861,7 6,7 L10,7 L10,4 C10,3.44771525 10.4477153,3 11,3 L21,3 Z M8,15 L4,15 L4,25 C4,26.1045695 4.8954305,27 6,27 L8,27 L8,15 Z M22,15 L10,15 L10,27 L22,27 L22,15 Z M28,15 L24,15 L24,27 L26,27 C27.1045695,27 28,26.1045695 28,25 L28,15 Z M26,9 L6,9 C4.8954305,9 4,9.8954305 4,11 L4,13 L28,13 L28,11 C28,9.8954305 27.1045695,9 26,9 Z M20,5 L12,5 L12,7 L20,7 L20,5 Z" id="&#24418;&#29366;" fill-rule="nonzero" />
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="currentColor" d="M21 3a1 1 0 0 1 1 1v3h4a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V11a4 4 0 0 1 4-4h4V4a1 1 0 0 1 1-1zM8 15H4v10a2 2 0 0 0 2 2h2zm14 0H10v12h12zm6 0h-4v12h2a2 2 0 0 0 2-2zm-2-6H6a2 2 0 0 0-2 2v2h24v-2a2 2 0 0 0-2-2m-6-4h-8v2h8z"/></svg>

@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
-    <title>fill-ele-people-s-custom-professional</title>
-    <g id="fill-ele-people-s-custom-professional" stroke-width="1" fill-rule="evenodd">
-        <path d="M16,16 C19.8659932,16 23,12.8659932 23,9 C23,5.13400675 19.8659932,2 16,2 C12.1340068,2 9,5.13400675 9,9 C9,12.8659932 12.1340068,16 16,16 Z M19.6536939,16.5204745 C25.0547121,18.09914 29,23.0888343 29,29 L3,29 C3,23.088468 6.94577684,18.0985216 12.3473102,16.5201811 L16,22 L19.6536939,16.5204745 Z" id="&#24418;&#29366;" />
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="currentColor" d="M16 16a7 7 0 1 0 0-14 7 7 0 0 0 0 14m3.654.52C25.054 18.1 29 23.09 29 29H3c0-5.912 3.946-10.901 9.347-12.48L16 22z"/></svg>

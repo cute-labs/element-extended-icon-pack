@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
-    <title>fill-new-digital-open</title>
-    <g id="fill-new-digital-open" stroke-width="1" fill-rule="evenodd">
-        <path d="M22,6 C27.5228475,6 32,10.4771525 32,16 C32,21.5228475 27.5228475,26 22,26 L10,26 C4.4771525,26 0,21.5228475 0,16 C0,10.4771525 4.4771525,6 10,6 L22,6 Z M22,11 C19.2385763,11 17,13.2385763 17,16 C17,18.7614237 19.2385763,21 22,21 C24.7614237,21 27,18.7614237 27,16 C27,13.2385763 24.7614237,11 22,11 Z" id="&#24418;&#29366;" />
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="currentColor" d="M22 6c5.523 0 10 4.477 10 10s-4.477 10-10 10H10C4.477 26 0 21.523 0 16S4.477 6 10 6zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10"/></svg>

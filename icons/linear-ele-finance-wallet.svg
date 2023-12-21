@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
-    <title>linear-ele-finance-wallet</title>
-    <g id="linear-ele-finance-wallet" stroke-width="1" fill-rule="evenodd">
-        <path d="M19,3 C19.5522847,3 20,3.44771525 20,4 L20,9 L29,9 C29.5522847,9 30,9.44771525 30,10 L30,28 C30,28.5522847 29.5522847,29 29,29 L3,29 C2.44771525,29 2,28.5522847 2,28 L2,4 C2,3.44771525 2.44771525,3 3,3 L19,3 Z M28,11 L4,11 L4,27 L28,27 L28,11 Z M22,17 C23.1045695,17 24,17.8954305 24,19 C24,20.1045695 23.1045695,21 22,21 C20.8954305,21 20,20.1045695 20,19 C20,17.8954305 20.8954305,17 22,17 Z M18,5 L4,5 L4,9 L18,9 L18,5 Z" id="&#24418;&#29366;" fill-rule="nonzero" />
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="currentColor" d="M19 3a1 1 0 0 1 1 1v5h9a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm9 8H4v16h24zm-6 6a2 2 0 1 1 0 4 2 2 0 0 1 0-4M18 5H4v4h14z"/></svg>

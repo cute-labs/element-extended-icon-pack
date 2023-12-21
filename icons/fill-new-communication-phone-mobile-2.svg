@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
-    <title>fill-new-communication-phone-mobile-2</title>
-    <g id="fill-new-communication-phone-mobile-2" stroke-width="1" fill-rule="evenodd">
-        <path d="M27,23 L27,27 C27,29.209139 25.209139,31 23,31 L9,31 C6.790861,31 5,29.209139 5,27 L5,23 L27,23 Z M16,25 C15.1715729,25 14.5,25.6715729 14.5,26.5 C14.5,27.3284271 15.1715729,28 16,28 C16.8284271,28 17.5,27.3284271 17.5,26.5 C17.5,25.6715729 16.8284271,25 16,25 Z M5,5 C5,2.790861 6.790861,1 9,1 L23,1 C25.209139,1 27,2.790861 27,5 L27,21 L5,21 L5,5 Z" id="&#24418;&#29366;" />
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="currentColor" d="M27 23v4a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4v-4zm-11 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M5 5a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v16H5z"/></svg>

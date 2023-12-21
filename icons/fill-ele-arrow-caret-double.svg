@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
-    <title>fill-ele-arrow-caret-double</title>
-    <g id="fill-ele-arrow-caret-double" stroke-width="1" fill-rule="evenodd">
-        <path d="M7,14 L25,14 L16,4 L7,14 Z M7,18 L25,18 L16,28 L7,18 Z" id="&#24418;&#29366;" />
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="currentColor" d="M7 14h18L16 4zm0 4h18l-9 10z"/></svg>

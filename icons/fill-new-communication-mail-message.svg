@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
-    <title>fill-new-communication-mail-message</title>
-    <g id="fill-new-communication-mail-message" stroke-width="1" fill-rule="evenodd">
-        <path d="M1.99989322,6.41289322 L15.2928932,19.7071068 C15.6834175,20.0976311 16.3165825,20.0976311 16.7071068,19.7071068 L30,6.41389322 L30,26 C30,26.5522847 29.5522847,27 29,27 L3,27 C2.44771525,27 1.99989322,26.5522847 1.99989322,26 L1.99989322,6.41289322 Z M28.5868932,4.99989322 L16,17.585 L3.41289322,4.99989322 L28.5868932,4.99989322 Z" id="&#24418;&#29366;" />
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="currentColor" d="m2 6.413 13.293 13.294a1 1 0 0 0 1.414 0L30 6.414V26a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1zM28.587 5 16 17.585 3.413 5z"/></svg>

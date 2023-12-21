@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
-    <title>fill-new-medic-health-cross-hospital</title>
-    <g id="fill-new-medic-health-cross-hospital" stroke-width="1" fill-rule="evenodd">
-        <path d="M3,12 L12,12 L12,12 L12,3 C12,2.44771525 12.4477153,2 13,2 L19,2 C19.5522847,2 20,2.44771525 20,3 L20,12 L20,12 L29,12 C29.5522847,12 30,12.4477153 30,13 L30,19 C30,19.5522847 29.5522847,20 29,20 L20,20 L20,20 L20,29 C20,29.5522847 19.5522847,30 19,30 L13,30 C12.4477153,30 12,29.5522847 12,29 L12,20 L12,20 L3,20 C2.44771525,20 2,19.5522847 2,19 L2,13 C2,12.4477153 2.44771525,12 3,12 Z" id="&#24418;&#29366;" />
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="currentColor" d="M3 12h9V3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v9h9a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-9v9a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1v-9H3a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1"/></svg>

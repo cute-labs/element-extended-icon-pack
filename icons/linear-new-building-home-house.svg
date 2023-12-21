@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
-    <title>linear-new-building-home-house</title>
-    <g id="linear-new-building-home-house" stroke-width="1" fill-rule="evenodd">
-        <path d="M15.3667622,2.2260427 C15.7351281,1.92465243 16.2648719,1.92465243 16.6332378,2.2260427 L27.6332378,11.2260427 C27.8653732,11.4159717 28,11.7000669 28,12 L28,29 C28,29.5522847 27.5522847,30 27,30 L5,30 C4.44771525,30 4,29.5522847 4,29 L4,12 C4,11.7000669 4.13462678,11.4159717 4.36676221,11.2260427 L15.3667622,2.2260427 Z M16,4.291 L6,12.473 L6,28 L26,28 L26,12.474 L16,4.291 Z" id="&#24418;&#29366;" fill-rule="nonzero" />
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="currentColor" d="M15.367 2.226a1 1 0 0 1 1.266 0l11 9A1 1 0 0 1 28 12v17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V12a1 1 0 0 1 .367-.774zM16 4.291 6 12.473V28h20V12.474z"/></svg>

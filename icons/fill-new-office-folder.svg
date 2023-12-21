@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
-    <title>fill-new-office-folder</title>
-    <g id="fill-new-office-folder" stroke-width="1" fill-rule="evenodd">
-        <path d="M3,28 L29,28 C29.5522847,28 30,27.5522847 30,27 L30,9 C30,8.44771525 29.5522847,8 29,8 L16.9142136,8 C16.6489971,8 16.3946432,7.89464316 16.2071068,7.70710678 L12.7928932,4.29289322 C12.6053568,4.10535684 12.3510029,4 12.0857864,4 L3,4 C2.44771525,4 2,4.44771525 2,5 L2,27 C2,27.5522847 2.44771525,28 3,28 Z" id="&#24418;&#29366;" />
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="currentColor" d="M3 28h26a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1H16.914a1 1 0 0 1-.707-.293l-3.414-3.414A1 1 0 0 0 12.086 4H3a1 1 0 0 0-1 1v22a1 1 0 0 0 1 1"/></svg>

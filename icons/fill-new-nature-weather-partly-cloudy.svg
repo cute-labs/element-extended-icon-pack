@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
-    <title>fill-new-nature-weather-partly-cloudy</title>
-    <g id="fill-new-nature-weather-partly-cloudy" stroke-width="1" fill-rule="evenodd">
-        <path d="M10,27 C5.581722,27 2,23.418278 2,19 C2,14.858915 5.14640112,11.4527114 9.17897702,11.0416154 C10.9908805,7.45761669 14.7084367,5 19,5 C25.0751322,5 30,9.92486775 30,16 C30,22.0751322 25.0751322,27 19,27 L10,27 Z" id="&#24418;&#29366;" />
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="currentColor" d="M10 27a8 8 0 0 1-.821-15.958A10.998 10.998 0 0 1 19 5c6.075 0 11 4.925 11 11s-4.925 11-11 11z"/></svg>

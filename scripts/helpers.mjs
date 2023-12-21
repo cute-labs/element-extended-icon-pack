@@ -8,12 +8,7 @@ import { SVG_DIRECTORY } from "./paths.mjs";
  * @returns {string[]} An array of paths to SVG files in the SVG directory.
  */
 export const readSvgDirectory = () =>
-  readdirSync(SVG_DIRECTORY).reduce((acc, file) => {
-    if (extname(file) === ".svg") {
-      acc.push(join(SVG_DIRECTORY, file));
-    }
-    return acc;
-  }, []);
+  readdirSync(SVG_DIRECTORY).filter((file) => extname(file) === ".svg");
 
 /**
  * Reads file
@@ -28,9 +23,10 @@ export const readFile = (fileName, directory) => readFileSync(join(directory, fi
  * Reads SVG file
  *
  * @param {string} fileName
+ * @param {string} directory
  * @returns {string} SVG file contents
  */
-export const readSvg = (fileName) => readFileSync(fileName, "utf-8");
+export const readSvg = (fileName, directory) => readFileSync(join(directory, fileName), "utf-8");
 
 /**
  * Writes SVG content to a file

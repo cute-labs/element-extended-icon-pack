@@ -18,9 +18,9 @@ function optimizeSvg(svg) {
         }
       },
       {
-        name: "addAttributesToSVGElement",
+        name: "convertColors",
         params: {
-          attribute: 'fill="currentColor"'
+          currentColor: true
         }
       }
     ]
