@@ -1,7 +1,0 @@
-{
-  "compilerOptions": {
-    "baseUrl": ".",
-    "allowSyntheticDefaultImports": true
-  },
-  "include": ["./*.ts"]
-}

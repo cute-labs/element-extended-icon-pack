@@ -1,0 +1,13 @@
+{
+  "name": "copy-license",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.mjs",
+  "type": "module",
+  "bin": {
+    "copy-license": "./main.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
