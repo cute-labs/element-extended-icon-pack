@@ -33,12 +33,6 @@ importers:
         specifier: workspace:*
         version: link:../../tools/copy-license
 
-  scripts:
-    devDependencies:
-      '@types/node':
-        specifier: ^20.10.5
-        version: 20.10.5
-
   tools/build-icons: {}
 
   tools/copy-license: {}
