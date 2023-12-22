@@ -2,11 +2,15 @@
   "name": "build-icons",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "type": "module",
+  "main": "main.mjs",
+  "bin": {
+    "build-icons": "./main.mjs"
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "camelcase": "^8.0.0"
+  }
 }

@@ -2,6 +2,7 @@
   "name": "optimize-icons",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "main.mjs",
   "bin": {
     "optimize-icons": "./main.mjs"

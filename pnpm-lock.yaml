@@ -17,6 +17,9 @@ importers:
       minimist:
         specifier: ^1.2.8
         version: 1.2.8
+      optimize-icons:
+        specifier: workspace:*
+        version: link:tools/optimize-icons
       prettier:
         specifier: ^3.1.1
         version: 3.1.1
@@ -36,6 +39,9 @@ importers:
       '@types/react':
         specifier: ^18.2.45
         version: 18.2.45
+      build-icons:
+        specifier: workspace:*
+        version: link:../../tools/build-icons
       copy-license:
         specifier: workspace:*
         version: link:../../tools/copy-license
@@ -43,9 +49,15 @@ importers:
         specifier: ^5.3.3
         version: 5.3.3
 
-  tools/build-icons: {}
+  tools/build-icons:
+    devDependencies:
+      camelcase:
+        specifier: ^8.0.0
+        version: 8.0.0
 
   tools/copy-license: {}
+
+  tools/optimize-icons: {}
 
 packages:
 
@@ -82,6 +94,11 @@ packages:
 
   /boolbase@1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
+    dev: true
+
+  /camelcase@8.0.0:
+    resolution: {integrity: sha512-8WB3Jcas3swSvjIeA2yvCJ+Miyz5l1ZmB6HFb9R1317dt9LCQoswg/BGrmAmkWVEszSrrg4RwmO46qIm2OEnSA==}
+    engines: {node: '>=16'}
     dev: true
 
   /commander@7.2.0:

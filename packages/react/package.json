@@ -4,12 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "copy:license": "copy-license --packageName=react"
+    "build": "pnpm copy:license && pnpm build:icons",
+    "copy:license": "copy-license --packageName=react",
+    "build:icons": "build-icons --templateSrc=./scripts/template.mjs --iconFilenameExtention=.ts --output=./src/icons"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "copy-license": "workspace:*"
+    "@types/react": "^18.2.45",
+    "build-icons": "workspace:*",
+    "copy-license": "workspace:*",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0"
   }
 }

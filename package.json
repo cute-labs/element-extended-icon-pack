@@ -3,7 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "build": "pnpm --filter './packages/**' build",
+    "optimize:icons": "optimize-icons"
+  },
   "packageManager": "pnpm@8.12.0",
   "engines": {
     "node": ">= 20"
@@ -12,6 +15,7 @@
     "@types/minimist": "^1.2.5",
     "@types/node": "^20.10.5",
     "minimist": "^1.2.8",
+    "optimize-icons": "workspace:*",
     "prettier": "^3.1.1",
     "svgo": "^3.1.0",
     "svgson": "^5.3.1"
