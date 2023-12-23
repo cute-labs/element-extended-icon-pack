@@ -19,9 +19,9 @@ const generateIconFiles = ({ iconsOutputDirectory, templateFn, filenameExtention
     const iconNode = children.map(({ name, attributes }) => {
       return [name, attributes];
     });
-    const componentName = camelCase(iconName, { pascalCase: true });
 
-    const outputContent = templateFn({ componentName, iconNode });
+    const componentName = camelCase(iconName, { pascalCase: true });
+    const outputContent = templateFn({ componentName, iconNode: JSON.stringify(iconNode) });
     writeFile(
       join(iconsOutputDirectory, `${iconName}.${filenameExtention}`),
       outputContent,

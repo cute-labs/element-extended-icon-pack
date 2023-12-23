@@ -1,6 +1,6 @@
 export default ({ componentName, iconNode }) => {
   return `
-import crateIcon from '../create-icon';
+import createIcon from '../create-icon';
 
 const ${componentName} = createIcon('${componentName}', ${iconNode});
 
