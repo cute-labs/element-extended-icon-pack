@@ -6,7 +6,7 @@ import generateEntryFile from "./building/generate-entry-file.mjs";
 
 const cliArgs = parseArgs(process.argv.slice(2));
 
-const { templateSrc, iconFilenameExtention, output, entryWithFilenameExtention = false } = cliArgs;
+const { templateSrc, iconFileExtension, output, entryWithFilenameExtention = false } = cliArgs;
 
 const ICON_OUTPUT_DIRECTORY = resolve(process.cwd(), output);
 
@@ -22,12 +22,12 @@ const buildIcon = async () => {
   generateIconFiles({
     iconsOutputDirectory: ICON_OUTPUT_DIRECTORY,
     templateFn: iconFileTemplateFn,
-    filenameExtention: iconFilenameExtention
+    filenameExtention: iconFileExtension
   });
 
   generateEntryFile({
     iconsOutputDirectory: ICON_OUTPUT_DIRECTORY,
-    filenameExtention: iconFilenameExtention,
+    filenameExtention: iconFileExtension,
     entryWithFilenameExtention
   });
 };
