@@ -1,22 +1,38 @@
 {
-  "name": "react",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "pnpm copy:license && pnpm build:icons",
-    "copy:license": "copy-license --packageName=react",
-    "build:icons": "build-icons --templateSrc=./scripts/template.mjs --iconFileExtension=.ts --output=./src/icons"
-  },
-  "keywords": [],
-  "author": "",
+  "name": "@element-extended-icon-pack/react",
+  "version": "0.0.2",
+  "description": "A collection of icons in the style of Element UI.",
+  "type": "module",
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "keywords": ["icon", "svg", "react", "element-ui"],
+  "author": "Abiee",
   "license": "MIT",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs",
+      "types": "./dist/main.d.ts"
+    },
+    "./*": [
+      "./*"
+    ]
+  },
+  "scripts": {
+    "build": "pnpm copy:license && pnpm build:icons && pnpm build:bundles",
+    "copy:license": "copy-license --packageName=react",
+    "build:icons": "build-icons --templateSrc=./scripts/template.mjs --iconFileExtension=.ts --output=./src/icons",
+    "build:bundles": "vite build"
+  },
   "devDependencies": {
     "@types/react": "^18.2.45",
+    "@vitejs/plugin-react": "^4.2.1",
     "build-icons": "workspace:*",
     "copy-license": "workspace:*",
+    "react-dom": "^18.2.0",
     "typescript": "^5.3.3",
-    "vite": "^5.0.10"
+    "vite": "^5.0.10",
+    "vite-plugin-dts": "^3.7.0"
   },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0"
