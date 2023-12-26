@@ -5,7 +5,12 @@
   "type": "module",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",
-  "keywords": ["icon", "svg", "react", "element-ui"],
+  "keywords": [
+    "icon",
+    "svg",
+    "react",
+    "element-ui"
+  ],
   "author": "Abiee",
   "license": "MIT",
   "exports": {

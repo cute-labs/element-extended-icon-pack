@@ -4,7 +4,7 @@ export interface IconProps extends ComponentProps<"svg"> {
   size?: number;
 }
 
-type IconNode = [elementName: keyof ReactSVG, attrs: Record<string, string>][];
+export type IconNode = [elementName: keyof ReactSVG, attrs: Record<string, string>][];
 
 const defaultAttributes = {
   xmlns: "http://www.w3.org/2000/svg",

@@ -1,2 +1,2 @@
 export * from "./icons";
-export * as icons from "./icons";
+export { type IconNode, type IconProps } from "./create-icon";
