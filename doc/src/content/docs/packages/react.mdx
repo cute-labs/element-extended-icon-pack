@@ -1,0 +1,43 @@
+---
+title: React
+description: 适用于 React 的 Element UI 风格图标包
+---
+import { Tabs, TabItem } from '@astrojs/starlight/components'
+
+适用于 React 的 Element UI 扩展图标包。
+
+## 安装
+
+<Tabs>
+<TabItem label="pnpm">
+```sh
+pnpm add @element-extended-icon-pack/react
+```
+</TabItem>
+<TabItem label="npm">
+```sh
+npm i @element-extended-icon-pack/react
+```
+</TabItem>
+</Tabs>
+
+## 如何使用
+Element extended icon pack 使用 ES Modules 构建，所以它是完全可以 Tree-shaking 的。
+每个图标都可以作为 Vue 组件导入，从而呈现内联 SVG 元素。因此，只有被导入到项目中的图标才会包含在最终构建的应用中，其它图标都被 tree-shaken 走了。
+
+### 使用例子
+```tsx
+import { FillEleSymbolUpload } from "@element-extended-icon-pack/react";
+
+const App = () => {
+  return <FillEleSymbolUpload size={18} color="black" />;
+};
+
+export default App
+```
+
+### Props
+| name | type | default |
+| :-----| :---- | :---- |
+| `size` | number | 24 |
+| `color` | string | currentColor |

@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "pnpm --filter './packages/**' build",
-    "optimize:icons": "optimize-icons"
+    "optimize:icons": "optimize-icons",
+    "doc:dev": "pnpm --filter './doc' dev"
   },
   "packageManager": "pnpm@8.12.0",
   "engines": {
