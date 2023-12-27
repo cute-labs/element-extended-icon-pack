@@ -5,8 +5,8 @@ import { readSvgDirectory } from "../../../scripts/helpers.mjs";
 
 const generateEntryFile = ({
   iconsOutputDirectory,
-  filenameExtention,
-  entryWithFilenameExtention = false
+  fileExtension,
+  entryWithFileExtension = false
 }) => {
   const svgs = readSvgDirectory();
   const entryCode = svgs
@@ -14,7 +14,7 @@ const generateEntryFile = ({
       const fileName = basename(svg, ".svg");
       const componentName = camelCase(fileName, { pascalCase: true });
       return `export { default as ${componentName}} from "./${
-        fileName + (entryWithFilenameExtention ? "." + filenameExtention : "")
+        fileName + (entryWithFileExtension ? fileExtension : "")
       }";`;
     })
     .join("\n");

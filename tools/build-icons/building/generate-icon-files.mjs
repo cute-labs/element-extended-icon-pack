@@ -5,7 +5,7 @@ import { readSvgDirectory } from "../../../scripts/helpers.mjs";
 import { SVG_DIRECTORY } from "../../../scripts/paths.mjs";
 import generateIconNodes from "./generate-icon-nodes.mjs";
 
-const generateIconFiles = ({ iconsOutputDirectory, templateFn, filenameExtention }) => {
+const generateIconFiles = ({ iconsOutputDirectory, templateFn, fileExtension }) => {
   const svgs = readSvgDirectory();
   const iconsNodes = generateIconNodes(svgs, SVG_DIRECTORY);
 
@@ -17,11 +17,7 @@ const generateIconFiles = ({ iconsOutputDirectory, templateFn, filenameExtention
 
     const componentName = camelCase(iconName, { pascalCase: true });
     const outputContent = templateFn({ componentName, iconNode: JSON.stringify(iconNode) });
-    writeFile(
-      join(iconsOutputDirectory, `${iconName}${filenameExtention}`),
-      outputContent,
-      "utf-8"
-    );
+    writeFile(join(iconsOutputDirectory, `${iconName}${fileExtension}`), outputContent, "utf-8");
   });
 
   Promise.all(writeIconFiles)
