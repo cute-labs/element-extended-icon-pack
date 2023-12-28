@@ -3,8 +3,16 @@
   "version": "0.0.2",
   "description": "A collection of icons in the style of Element UI.",
   "type": "module",
-  "main": "./dist/index.umd.cjs",
+  "main": "./dist/index.cjs",
   "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "keywords": [
     "icon",
     "svg",
@@ -13,31 +21,18 @@
   ],
   "author": "Abiee",
   "license": "MIT",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.umd.cjs",
-      "types": "./dist/main.d.ts"
-    },
-    "./*": [
-      "./*"
-    ]
-  },
   "scripts": {
     "build": "pnpm copy:license && pnpm build:icons && pnpm build:bundles",
     "copy:license": "copy-license --packageName=react",
     "build:icons": "build-icons --templateSrc=./scripts/template.mjs --iconFileExtension=.ts --output=./src/icons",
-    "build:bundles": "vite build"
+    "build:bundles": "tsup"
   },
   "devDependencies": {
     "@types/react": "^18.2.45",
-    "@vitejs/plugin-react": "^4.2.1",
     "build-icons": "workspace:*",
     "copy-license": "workspace:*",
-    "react-dom": "^18.2.0",
-    "typescript": "^5.3.3",
-    "vite": "^5.0.10",
-    "vite-plugin-dts": "^3.7.0"
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
   },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0"
