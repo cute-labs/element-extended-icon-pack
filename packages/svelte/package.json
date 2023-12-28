@@ -19,10 +19,6 @@
 		".": {
 			"types": "./dist/index.d.ts",
 			"svelte": "./dist/index.js"
-		},
-		"./global": {
-			"types": "./dist/global.d.ts",
-			"svelte": "./dist/global.js"
 		}
 	},
 	"files": [
