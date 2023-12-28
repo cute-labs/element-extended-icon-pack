@@ -1,0 +1,91 @@
+{
+  "name": "@element-extended-icon-pack/solid",
+  "version": "0.0.2",
+  "description": "A collection of icons in the style of Element UI.",
+  "type": "module",
+  "main": "./dist/server.cjs",
+  "module": "./dist/server.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "worker": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/server.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/server.cjs"
+      }
+    },
+    "browser": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "deno": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/server.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/server.cjs"
+      }
+    },
+    "node": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/server.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/server.cjs"
+      }
+    },
+    "import": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "require": {
+      "types": "./dist/index.d.cts",
+      "default": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "icon",
+    "svg",
+    "vue",
+    "element-ui"
+  ],
+  "author": "Abiee",
+  "license": "MIT",
+  "scripts": {
+    "build": "pnpm copy:license && pnpm build:icons && pnpm build:bundles",
+    "copy:license": "copy-license --packageName=solid",
+    "build:icons": "build-icons --templateSrc=./scripts/template.mjs --iconFileExtension=.tsx --output=./src/icons",
+    "build:bundles": "tsup"
+  },
+  "devDependencies": {
+    "build-icons": "workspace:*",
+    "copy-license": "workspace:*",
+    "tsup": "^8.0.1",
+    "tsup-preset-solid": "^2.2.0",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.8.0"
+  },
+  "browser": {
+    "./dist/server.js": "./dist/index.js",
+    "./dist/server.cjs": "./dist/index.cjs"
+  },
+  "typesVersions": {}
+}
