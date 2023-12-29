@@ -2,4 +2,3 @@ packages:
   - "packages/*"
   - "tools/*"
   - "playground/*"
-  - "doc"
