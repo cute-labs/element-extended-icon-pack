@@ -41,6 +41,10 @@ importers:
       sharp:
         specifier: ^0.33.1
         version: 0.33.1
+    devDependencies:
+      '@element-extended-icon-pack/svelte':
+        specifier: workspace:^
+        version: link:../packages/svelte
 
   packages/react:
     dependencies:

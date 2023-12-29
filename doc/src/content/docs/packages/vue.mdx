@@ -1,0 +1,65 @@
+---
+title: Vue
+description: 适用于 Vue 的 Element UI 风格图标包
+---
+import { Tabs, TabItem } from '@astrojs/starlight/components'
+
+适用于 Vue 的 Element UI 扩展图标包。
+
+## 安装
+
+<Tabs>
+<TabItem label="pnpm">
+```sh
+pnpm add @element-extended-icon-pack/vue
+```
+</TabItem>
+<TabItem label="npm">
+```sh
+npm i @element-extended-icon-pack/vue
+```
+</TabItem>
+</Tabs>
+
+## 如何使用
+Element extended icon pack 使用 ES Modules 构建，所以它是完全可以 Tree-shaking 的。
+每个图标都可以作为 Vue 组件导入，从而呈现内联 SVG 元素。因此，只有被导入到项目中的图标才会包含在最终构建的应用中，其它图标都被 tree-shaken 走了。
+
+### 使用例子
+```vue
+<template>
+  <FillEleArrowCaretDouble size="48" color="#42b883" />
+</template>
+
+<script setup>
+  import { FillEleArrowCaretDouble } from "@element-extended-icon-pack/vue";
+</script>
+```
+
+### Props
+| name | type | default |
+| :-----| :---- | :---- |
+| `size` | `number` `string` | 24 |
+| `color` | `string` | currentColor |
+
+### 导入所有图标
+可以一次性导入所有图标，但不建议这样做。
+:::caution
+以下示例导入所有 ES 模块，因此使用时要小心。导入所有图标将显著增加应用程序的大小，从而对性能产生负面影响。
+:::
+
+```vue
+<template>
+  <component
+    :is="Icon"
+    v-for="(Icon, key) in icons"
+    :key="key"
+    :size="28"
+    color="#42b883"
+  />
+</template>
+
+<script setup>
+  import * as icons from "@element-extended-icon-pack/vue";
+</script>
+```

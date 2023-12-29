@@ -13,5 +13,8 @@
     "@astrojs/starlight": "^0.15.1",
     "astro": "^4.0.7",
     "sharp": "^0.33.1"
+  },
+  "devDependencies": {
+    "@element-extended-icon-pack/svelte": "workspace:^"
   }
 }
