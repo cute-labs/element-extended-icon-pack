@@ -11,10 +11,14 @@
   },
   "dependencies": {
     "@astrojs/starlight": "^0.15.1",
-    "astro": "^4.0.7",
-    "sharp": "^0.33.1"
+    "@astrojs/svelte": "^5.0.3",
+    "astro": "^4.0.8",
+    "svelte": "^4.2.8"
   },
   "devDependencies": {
-    "@element-extended-icon-pack/svelte": "workspace:^"
+    "@element-extended-icon-pack/svelte": "workspace:^",
+    "sharp": "^0.33.1",
+    "svelte-copy": "^1.4.1",
+    "svelte-sonner": "^0.3.7"
   }
 }

@@ -1,31 +1,29 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 
+import svelte from "@astrojs/svelte";
+
 // https://astro.build/config
 export default defineConfig({
   integrations: [
     starlight({
       title: "Element UI 扩展图标库",
       social: {
-        github: "https://github.com/withastro/starlight"
+        github: "https://github.com/richhost/element-extended-icon-pack"
       },
       sidebar: [
         {
-          label: "Guides",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", link: "/guides/example/" }
-          ]
-        },
-        {
-          label: "Reference",
-          autogenerate: { directory: "reference" }
+          label: "Icons",
+          link: "/icons"
         },
         {
           label: "包",
-          autogenerate: { directory: "packages" }
+          autogenerate: {
+            directory: "packages"
+          }
         }
       ]
-    })
+    }),
+    svelte()
   ]
 });
