@@ -30,8 +30,9 @@
 
   .icon {
     background: color(display-p3 0.975 0.975 0.975);
-    display: grid;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     aspect-ratio: 1;
     margin-top: 0;
     border-radius: 4px;
