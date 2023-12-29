@@ -37,6 +37,7 @@
     border-radius: 4px;
     transition: background 0.2s ease-in-out;
     cursor: pointer;
+    color: rgba(0, 0, 0, 0.7);
   }
   .icon:hover {
     background: color(display-p3 0.908 0.908 0.908);
