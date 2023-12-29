@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.3.4",
-    "@element-extended-icon-pack/svelte": "workspace:^",
+    "@element-extended-icon-pack/svelte": "^0.0.1",
     "sharp": "^0.33.1",
     "svelte-copy": "^1.4.1",
     "svelte-sonner": "^0.3.7",
