@@ -5,6 +5,7 @@
 </script>
 
 <Toaster />
+
 <div class="icons">
   {#each Object.entries(icons) as [name, icon]}
     <div
@@ -24,6 +25,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(56px, 1fr));
     gap: 8px;
+    margin-top: 0;
   }
 
   .icon {
