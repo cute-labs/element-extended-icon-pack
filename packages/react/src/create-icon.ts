@@ -11,13 +11,24 @@ const defaultAttributes = {
   viewBox: "0 0 32 32"
 };
 
+function isSafeSize(value: IconProps["width"]) {
+  return value !== null && value !== undefined;
+}
+
 const createIcon = (componentName: string, iconNode: IconNode) => {
-  const Component = forwardRef<SVGAElement, IconProps>(({ size = 24, ...rest }, ref) =>
-    createElement(
-      "svg",
-      { ...defaultAttributes, ref, width: size, height: size, ...rest },
-      ...iconNode.map(([element, attrs]) => createElement(element, { ...attrs }))
-    )
+  const Component = forwardRef<SVGAElement, IconProps>(
+    ({ size = 24, width, height, ...rest }, ref) =>
+      createElement(
+        "svg",
+        {
+          ...defaultAttributes,
+          ref,
+          width: isSafeSize(width) ? width : size,
+          height: isSafeSize(height) ? height : size,
+          ...rest
+        },
+        ...iconNode.map(([element, attrs]) => createElement(element, { ...attrs }))
+      )
   );
   Component.displayName = componentName;
   return Component;

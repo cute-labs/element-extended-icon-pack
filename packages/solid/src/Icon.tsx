@@ -18,11 +18,20 @@ export type IconProps = SVGAttributes & {
   key?: string | number;
 };
 
+function isSafeSize(value: IconProps["width"]) {
+  return value !== null && value !== undefined;
+}
+
 const Icon = (props: IconProps & { iconNode: IconNode }) => {
   const [localProps, rest] = splitProps(props, ["size", "iconNode", "children", "width", "height"]);
 
   return (
-    <svg {...defaultAttributes} width={localProps.size} height={localProps.size} {...rest}>
+    <svg
+      {...defaultAttributes}
+      width={isSafeSize(localProps.width) ? localProps.width : localProps.size}
+      height={isSafeSize(localProps.height) ? localProps.height : localProps.size}
+      {...rest}
+    >
       <For each={localProps.iconNode}>
         {([elementName, attrs]) => <Dynamic component={elementName} {...attrs} />}
       </For>
