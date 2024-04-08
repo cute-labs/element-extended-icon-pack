@@ -29,7 +29,8 @@
   }
 
   .icon {
-    background: color(display-p3 0.975 0.975 0.975);
+    /* background: color(display-p3 0.975 0.975 0.975); */
+    background: var(--sl-color-bg-nav);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,9 +39,10 @@
     border-radius: 4px;
     transition: background 0.2s ease-in-out;
     cursor: pointer;
-    color: rgba(0, 0, 0, 0.7);
+    color: var(--sl-color-gray-2);
   }
   .icon:hover {
-    background: color(display-p3 0.908 0.908 0.908);
+    background: var(--sl-color-text-accent);
+    color: var(--sl-color-text-invert);
   }
 </style>
