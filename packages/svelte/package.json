@@ -1,6 +1,6 @@
 {
 	"name": "@element-extended-icon-pack/svelte",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "A collection of icons in the style of Element UI.",
 	"repository": {
     "type": "git",
