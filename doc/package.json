@@ -22,8 +22,5 @@
     "svelte-copy": "^1.4.1",
     "svelte-sonner": "^0.3.21",
     "typescript": "^5.4.4"
-  },
-  "engines": {
-    "node": ">=20"
   }
 }
