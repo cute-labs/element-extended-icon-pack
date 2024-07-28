@@ -15,7 +15,7 @@
         toast("已复制", { description: `<${name} />` });
       }}
     >
-      <svelte:component this={icon} />
+      <svelte:component this={icon} size="32" />
     </div>
   {/each}
 </div>
