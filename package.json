@@ -6,7 +6,8 @@
   "scripts": {
     "build": "pnpm --filter './packages/**' build",
     "optimize:icons": "optimize-icons",
-    "doc:dev": "pnpm --filter './doc' dev"
+    "doc:dev": "pnpm --filter './doc' dev",
+    "doc:build": "pnpm --filter './doc' build"
   },
   "packageManager": "pnpm@9.6.0",
   "devDependencies": {
