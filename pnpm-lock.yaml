@@ -23,6 +23,9 @@ importers:
       prettier:
         specifier: ^3.3.3
         version: 3.3.3
+      svg64:
+        specifier: ^2.0.0
+        version: 2.0.0
       svgo:
         specifier: ^3.3.2
         version: 3.3.2
@@ -5794,6 +5797,9 @@ packages:
 
   svg-tags@1.0.0:
     resolution: {integrity: sha512-ovssysQTa+luh7A5Weu3Rta6FJlFBBbInjOh722LIt6klpU2/HtdUbszju/G4devcvk8PGt7FCLv5wftu3THUA==}
+
+  svg64@2.0.0:
+    resolution: {integrity: sha512-EVgAisxMctUNDSjKGFcx4tkcFrvdqtLIy/MdbBdqcwfpPwsBcwoSKQi+WYoc82c4XWFNVVIwpCup3rpY+M9KJw==}
 
   svgo@3.3.2:
     resolution: {integrity: sha512-OoohrmuUlBs8B8o6MB2Aevn+pRIH9zDALSR+6hhqVfa6fRwG/Qw9VUMSMW9VNg2CFc/MTIfabtdOVl9ODIJjpw==}
@@ -13232,6 +13238,8 @@ snapshots:
       zimmerframe: 1.1.2
 
   svg-tags@1.0.0: {}
+
+  svg64@2.0.0: {}
 
   svgo@3.3.2:
     dependencies:
