@@ -4,11 +4,11 @@ export default ({ componentName = "", iconNode }) => {
 import Icon from '../Icon.svelte';
 import type { IconNode, IconProps } from '../types';
 
-type $$Props = IconProps
+const props: IconProps = $props(); 
 
 const iconNode: IconNode = ${iconNode};
 </script>
 
-<Icon {...$$props} {iconNode} />
+<Icon {...props} {iconNode} />
 `;
 };
