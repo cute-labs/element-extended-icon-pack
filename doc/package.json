@@ -5,18 +5,16 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
-  "dependencies": {
-    "@astrojs/starlight": "^0.21.5",
-    "@astrojs/svelte": "^5.7.0",
-    "astro": "^4.12.2"
-  },
   "devDependencies": {
     "@astrojs/check": "^0.3.4",
+    "@astrojs/starlight": "^0.25.2",
+    "@astrojs/svelte": "^5.7.0",
     "@element-extended-icon-pack/svelte": "^0.1.0",
+    "astro": "^4.12.2",
     "sharp": "^0.33.4",
     "svelte": "5.0.0-next.200",
     "svelte-copy": "^1.4.2",
