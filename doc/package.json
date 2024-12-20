@@ -1,24 +1,25 @@
 {
-  "name": "doc",
+  "name": "docs",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro check && astro build",
+    "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
+  "dependencies": {
+    "@astrojs/starlight": "^0.30.3",
+    "@astrojs/svelte": "^7.0.1",
+    "@element-extended-icon-pack/svelte": "workspace:*",
+    "astro": "^5.1.0",
+    "sharp": "^0.33.5",
+    "svelte": "^5.15.0",
+    "typescript": "^5.7.2"
+  },
   "devDependencies": {
-    "@astrojs/check": "^0.3.4",
-    "@astrojs/starlight": "^0.25.2",
-    "@astrojs/svelte": "^5.7.0",
-    "@element-extended-icon-pack/svelte": "^0.1.0",
-    "astro": "^4.12.2",
-    "sharp": "^0.33.4",
-    "svelte": "5.0.0-next.200",
     "svelte-copy": "^1.4.2",
-    "svelte-sonner": "^0.3.27",
-    "typescript": "^5.5.4"
+    "svelte-sonner": "^0.3.27"
   }
 }
